@@ -9,4 +9,4 @@ var server = new WebpackDevServer(webpack(config), {
   stats: { colors: true },
 });
 
-server.listen(8080, "localhost", function() {});  
+server.listen(8080, "0.0.0.0", function() {});  
