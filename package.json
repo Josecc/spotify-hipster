@@ -1,0 +1,44 @@
+{
+  "name": "spotify-hipster",
+  "version": "1.0.0",
+  "description": "Spotify search app for the rare music.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf lib",
+    "watch-js": "./node_modules/.bin/babel src -d lib --experimental -w",
+    "dev-server": "node lib/server/webpack",
+    "server": "nodemon lib/server/server",
+    "start": "npm run watch-js & npm run dev-server & npm run server",
+    "build": "npm run clean && ./node_modules/.bin/babel src -d lib --experimental"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Josecc/spotify-hipster.git"
+  },
+  "keywords": [
+    "Spotify",
+    "react",
+    "reactjs"
+  ],
+  "author": "Jose Canahui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Josecc/spotify-hipster/issues"
+  },
+  "homepage": "https://github.com/Josecc/spotify-hipster#readme",
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "babel-core": "^5.8.19",
+    "babel-loader": "^5.3.2",
+    "express": "^4.13.1",
+    "jade": "^1.11.0",
+    "nodemon": "^1.4.0",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.8",
+    "react-router": "^0.13.3",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {}
+}
