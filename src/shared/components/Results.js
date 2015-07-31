@@ -7,7 +7,7 @@ export default class Results extends React.Component {
 						searching: props.searching		};
 	}
 	render() {
-		var divStyle = {padding: "20px", overflow: "hidden", maxHeight: "230px", maxWidth: "230px", float: "left"};
+		var divStyle = {padding: "20px", overflow: "hidden", maxHeight: "230px", maxWidth: "230px", float: "left", background:"url(loader.gif) center center no-repeat"};
 		var frameStyle = {marginTop: "-140px", marginLeft: "-60px"};
 	    return (
 	      <div>

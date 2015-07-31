@@ -13,11 +13,16 @@ export default class Search extends React.Component {
 		if (this.state.query != '')
 			this.props.searchFunc(this.state.query);
 	}
+	keyDown(e) {
+		if (e.keyCode == 13) {
+			this.search();
+		}
+	}
 	render() {
 	    return (
 	     	<div>
-        		<input type="text" style={{width: "200px"}} value={this.state.query} onChange={this.handleChange.bind(this)}/>
-        		<button type="button" onClick={this.search.bind(this)}>Search</button>
+        		<input type="text" style={{width: "200px"}} value={this.state.query} onKeyDown={this.keyDown.bind(this)} onChange={this.handleChange.bind(this)}/>
+        		<button type="button">Search</button>
       		</div>
 	    );
   	}

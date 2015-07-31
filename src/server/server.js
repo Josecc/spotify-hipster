@@ -9,6 +9,8 @@ app.set('view engine', 'jade');
 
 import routes from "../shared/routes";
 
+app.use(express.static('./src/shared/images'))
+
 app.get('/*', function (req, res) {  
   Router.run(routes, req.url, Handler => {
     let content = React.renderToString(<Handler />);
