@@ -22,7 +22,7 @@ export default class Results extends React.Component {
 	        }) : <ol className="instruction" style={listStyle}>
 	        		<li style={itemStyle}>Search for a song</li>
 	        		<li style={itemStyle}>Click on an album</li>
-	        		<li style={itemStyle}>Enjoy your non-mainstream song!</li>
+	        		<li style={itemStyle}>Enjoy your non-mainstream music!</li>
 	        	</ol>}
 	      </div>
 	    );
