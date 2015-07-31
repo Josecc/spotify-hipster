@@ -1,0 +1,44 @@
+body {
+	background-color: #262626;
+	color: #dbdbdb;
+	text-align: center;
+	padding: 20px;
+}
+input {
+	background-color: #262626;
+	color: #84bd00;
+	padding: 20px;
+	font-size: 24px;
+	border-color: #dbdbdb;
+	border-radius: 20px 0 0 20px;
+	border-style: solid;
+	min-width: 65%;
+}
+input:focus {
+	outline: none;
+}
+h1 {
+	font-family: "coquette";
+	font-size: 56px;
+	padding: 30px;
+}
+button {
+	background-color: #84bd00;
+	border-style: solid;
+	border-color: #84bd00;
+	border-radius: 0 20px 20px 0;
+	min-width: 10%;
+	padding: 20px;
+	font-size: 24px;
+	color: #dbdbdb;
+}
+button:hover {
+	background-color: #689400;
+	border-color: #72a300;
+}
+button:active {
+	border-color: #689400;
+}
+button:focus {
+	outline: none;
+}

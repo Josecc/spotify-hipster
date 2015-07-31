@@ -22,7 +22,7 @@ export default class Search extends React.Component {
 	    return (
 	     	<div>
         		<input type="text" style={{width: "200px"}} value={this.state.query} onKeyDown={this.keyDown.bind(this)} onChange={this.handleChange.bind(this)}/>
-        		<button type="button">Search</button>
+        		<button type="button" onClick={this.search.bind(this)}>Search</button>
       		</div>
 	    );
   	}

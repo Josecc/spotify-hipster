@@ -9,7 +9,7 @@ app.set('view engine', 'jade');
 
 import routes from "../shared/routes";
 
-app.use(express.static('./src/shared/images'))
+app.use(express.static('./src/shared/public'))
 
 app.get('/*', function (req, res) {  
   Router.run(routes, req.url, Handler => {

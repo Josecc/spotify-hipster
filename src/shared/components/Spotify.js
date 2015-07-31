@@ -37,7 +37,7 @@ export default class Spotify extends React.Component {
 	render() {
 		return (
 			<div>
-				<span> Hipster Spotify Search </span>
+				<h1> Hipster Spotify Search </h1>
 				<Search searchFunc={this.search.bind(this)} />
 				<Results key={this.state.searching} resultsURIs={this.state.searchResult} searching={this.state.searching}/>
 			</div>
