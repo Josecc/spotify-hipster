@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "./Search";
 import Results from "./Results";
+import Footer from "./Footer";
 
 export default class Spotify extends React.Component {  
 	constructor(props) {
@@ -40,6 +41,9 @@ export default class Spotify extends React.Component {
 				<h1> Hipster Spotify Search </h1>
 				<Search searchFunc={this.search.bind(this)} />
 				<Results key={this.state.searching} resultsURIs={this.state.searchResult} searching={this.state.searching}/>
+				<footer>
+					<Footer/>
+				</footer>
 			</div>
 			);
 	}
