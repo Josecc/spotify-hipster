@@ -20,7 +20,7 @@ export default class Results extends React.Component {
 	        			<iframe style={frameStyle} src={source} width="350" height="430" frameborder="0" allowtransparency="false"></iframe>
 	        		</div>);
 	        }) : <ol className="instruction" style={listStyle}>
-	        		<li style={itemStyle}>Search fot a song</li>
+	        		<li style={itemStyle}>Search for a song</li>
 	        		<li style={itemStyle}>Click on an album</li>
 	        		<li style={itemStyle}>Enjoy your non-mainstream song!</li>
 	        	</ol>}
