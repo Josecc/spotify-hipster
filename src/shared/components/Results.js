@@ -16,7 +16,7 @@ export default class Results extends React.Component {
 	        	let source = "https://embed.spotify.com/?view=coverart&uri=spotify:album:" + album.id
 	        	return (
 	        		<div style={divStyle}>
-	        			<iframe style={frameStyle} src={source} width="350" height="430" frameborder="0" allowtransparency="true"></iframe>
+	        			<iframe style={frameStyle} src={source} width="350" height="430" frameborder="0" allowtransparency="false"></iframe>
 	        		</div>);
 	        }) : <span style={spanStyle}>Search for an album, and I will bring up the most hip songs containing your keyword ;)</span>}
 	      </div>
