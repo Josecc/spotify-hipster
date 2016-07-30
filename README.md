@@ -1,10 +1,10 @@
 # spotify-hipster
 A Search feature for Spotify that provides the most unpopular(hipster) results.
 
-My first try at ReactJs, demo app available : http://io.jose-canahui.com:3000
+My first try at ReactJs, demo app available : http://spotify.canahui.me
 
-I love spotify, and was browsing its api. There's a search tag calledd 'hipster', whish will give you the results of the 10% least popular songs. 
-Very nice play on words! 
+I love spotify, and was browsing its api. There's a search tag calledd 'hipster', whish will give you the results of the 10% least popular songs.
+Very nice play on words!
 
 This app is not greatly organized, I just wanted to understand how to create components in react.
 Aditionally, I went a little overboard with styling the css and making it look nice :)
